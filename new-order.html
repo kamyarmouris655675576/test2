@@ -1,0 +1,33 @@
+<!DOCTYPE html><html lang="fa" dir="rtl"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"><meta name="theme-color" content="#123c32"><meta name="color-scheme" content="light"><title>سفارش جدید — موریس</title><link rel="icon" href="assets/icon-192.png"><link rel="preload" href="assets/fonts/Estedad-Regular.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="assets/fonts/Estedad-Medium.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="assets/fonts/Estedad-Black.woff2" as="font" type="font/woff2" crossorigin><link rel="stylesheet" href="assets/style.css"><link rel="manifest" href="manifest.json"></head><body data-page="new-order">
+<div id="preloader"><div class="mouris-loader"><div class="mouris-clock" role="img" aria-label="ساعت مکانیکی موریس"><span class="clock-gear clock-gear-a">⚙</span><span class="clock-gear clock-gear-b">⚙</span><span class="clock-hand clock-hour"></span><span class="clock-hand clock-minute"></span><span class="clock-hand clock-second"></span><span class="clock-pin"></span></div><img src="assets/mouris-logo.webp" alt="MOURIS WATCH"><strong>MOURIS WATCH</strong><small>هر ساعت، داستانی دارد...</small></div></div>
+<header class="site-header"><a href="index.html" class="brand"><img src="assets/mouris-logo.webp" alt="MOURIS WATCH"></a></header>
+<main class="container"><a href="index.html" class="back-link">بازگشت به خانه</a><h1 class="page-title">سفارش جدید ساعت</h1><p class="page-sub">ثبت درخواست تهیه ساعت یا محصول موردنظر شما</p>
+<form id="new-order-form" novalidate>
+<section class="section form-panel"><h2>مشخصات ساعت یا کالا</h2>
+<div class="form-group"><label class="field-label" for="item-name">نام ساعت / مدل</label><input type="text" id="item-name" name="itemName" required placeholder="مثلاً Tissot PRX"></div>
+<div class="form-group"><label class="field-label" for="item-details">برند، رنگ و توضیحات</label><input type="text" id="item-details" name="itemDetails" placeholder="برند، رنگ، اندازه و مدل دقیق"></div></section>
+<section class="section form-panel"><h2>قیمت و زمان تحویل</h2>
+<div class="form-group"><label class="field-label" for="agreed-price">قیمت (تومان)</label><input type="text" id="agreed-price" name="price" class="price-format" data-price-format inputmode="numeric" autocomplete="off" placeholder="مبلغ را وارد کنید" dir="ltr"><div class="price-in-words" data-price-words="agreed-price">به حروف: — تومان</div></div>
+<div class="form-group"><label class="field-label" for="expected-date">زمان تقریبی تحویل</label><div class="jalali-picker-field"><input type="text" id="expected-date" name="expectedDate" placeholder="انتخاب تاریخ شمسی یا وارد کردن حدود تحویل" readonly aria-haspopup="dialog" aria-expanded="false"><button type="button" class="calendar-open" id="open-jalali-calendar" aria-label="باز کردن تقویم شمسی"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M16 3v4M8 3v4M3 10h18"/></svg></button></div><div id="jalali-calendar" class="jalali-calendar hidden" role="dialog" aria-label="تقویم شمسی"></div><input type="text" id="expected-date-note" class="approx-date-note" placeholder="در صورت نیاز: حدوداً، مثلاً اواخر آذر" aria-label="توضیح تقریبی زمان تحویل"></div>
+<div class="form-group"><label class="field-label" for="order-notes">توضیحات سفارش</label><textarea id="order-notes" name="notes" rows="3" placeholder="هر نکته‌ای که برای تهیه ساعت لازم است"></textarea></div></section>
+<section class="section form-panel"><h2>اطلاعات مشتری</h2>
+<div class="form-group"><label class="field-label" for="customer-name">نام و نام خانوادگی</label><input type="text" id="customer-name" name="name" required autocomplete="name"></div>
+<div class="form-group"><label class="field-label" for="customer-phone">شماره موبایل</label><input type="tel" id="customer-phone" name="phone" inputmode="numeric" autocomplete="tel" placeholder="09xxxxxxxxx" required dir="ltr"></div></section>
+<button type="submit" class="btn">ثبت سفارش</button></form></main>
+<footer class="site-footer"><div class="footer-info">
+<div class="footer-logo"><img src="assets/mouris-logo.webp" alt="لوگوی موریس"></div>
+<div class="footer-address"><svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z"/></svg><span>مرزداران، پاساژ پردیسان، طبقه بالا، واحد ۹۰</span></div>
+
+<div class="footer-map-links" aria-label="مسیریابی فروشگاه">
+<a class="icon-link" href="https://maps.app.goo.gl/UJXAzXb2pjgqmCxh7" target="_blank" rel="noopener noreferrer" aria-label="موقعیت در گوگل‌مپ" title="گوگل‌مپ"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s7-6.1 7-13a7 7 0 1 0-14 0c0 6.9 7 13 7 13Z"/><circle cx="12" cy="9" r="2.4"/></svg><span>گوگل‌مپ</span></a>
+<a class="icon-link" href="https://nshn.ir/f9_bvZEa5x4bZZ" target="_blank" rel="noopener noreferrer" aria-label="موقعیت در نشان" title="نشان"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s7-6.1 7-13a7 7 0 1 0-14 0c0 6.9 7 13 7 13Z"/><path d="m9 9 2 2 4-4"/></svg><span>نشان</span></a>
+</div>
+<div class="mouris-social" aria-label="راه‌های ارتباطی">
+<a class="icon-link" href="tel:09126022112" aria-label="تماس با موریس" title="تماس"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3H4.8A1.8 1.8 0 0 0 3 4.8C3 13.7 10.3 21 19.2 21a1.8 1.8 0 0 0 1.8-1.8V17l-5-1-1.1 2a14.5 14.5 0 0 1-8.1-8.1l2-1.1L7 3Z"/></svg><span>تماس</span></a>
+<a class="icon-link" href="https://wa.me/989126022112" target="_blank" rel="noopener noreferrer" aria-label="واتساپ موریس" title="واتساپ"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 11.7a8.5 8.5 0 0 1-12.6 7.4L3 20l.9-4.7a8.5 8.5 0 1 1 16.6-3.6Z"/><path d="M8.5 8.2c.3-.6.6-.6.9-.6h.5c.2 0 .4.1.5.4l.7 1.7c.1.2.1.4-.1.6l-.5.6c-.2.2-.2.4 0 .6.5.8 1.2 1.5 2 2 .2.1.4.1.6-.1l.7-.8c.2-.2.4-.2.6-.1l1.6.8c.2.1.3.3.3.5 0 .4-.2 1-.6 1.3-.4.4-1 .6-1.6.5-1-.1-2.2-.7-3.4-1.7-1.4-1.2-2.4-2.7-2.6-3.7-.2-.8 0-1.5.4-2Z"/></svg><span>واتساپ</span></a>
+<a class="icon-link" href="https://www.instagram.com/morriswatch1/" target="_blank" rel="noopener noreferrer" aria-label="اینستاگرام موریس" title="اینستاگرام"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.7" r=".8" class="icon-fill"/></svg><span>اینستاگرام</span></a>
+</div>
+</div></footer><script src="assets/app.js"></script>
+<script>
+if("serviceWorker" in navigator){window.addEventListener("load",()=>navigator.serviceWorker.register("./sw.js").catch(()=>{}));}
+</script></body></html>

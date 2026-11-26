@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="220" viewBox="0 0 220 220" fill="none">
+<g stroke="#087f73" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" opacity=".52">
+  <g transform="translate(18 18) rotate(-13 31 31)">
+    <path d="M23 2h16l3 17H20L23 2Zm-3 43h22l-3 17H23l-3-17Z"/>
+    <circle cx="31" cy="32" r="14"/>
+    <path d="M31 22v10l7 4M31 18v2m0 24v2m14-14h-2M19 32h-2"/>
+  </g>
+  <g transform="translate(130 104) rotate(15 31 31)">
+    <path d="M23 2h16l3 17H20L23 2Zm-3 43h22l-3 17H23l-3-17Z"/>
+    <circle cx="31" cy="32" r="14"/>
+    <path d="M31 22v10l-7 5M31 18v2m0 24v2m14-14h-2M19 32h-2"/>
+  </g>
+  <g transform="translate(139 9) scale(.55)">
+    <circle cx="31" cy="32" r="14"/><path d="M31 22v10l7 4M31 18v2m0 24v2m14-14h-2M19 32h-2"/>
+  </g>
+  <g transform="translate(16 145) scale(.52)">
+    <circle cx="31" cy="32" r="14"/><path d="M31 22v10l7 4M31 18v2m0 24v2m14-14h-2M19 32h-2"/>
+  </g>
+</g>
+<g stroke="#b98919" stroke-width="1" opacity=".32"><path d="M100 20v13m-6-6h12M95 194v12m-6-6h12M196 67v12m-6-6h12"/></g>
+</svg>
